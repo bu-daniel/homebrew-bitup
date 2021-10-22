@@ -5,6 +5,7 @@ class Cneovim < Formula
   homepage "https://neovim.io/"
   url "https://github.com/bu-daniel/cneovim/archive/refs/tags/nightly.tar.gz"
   sha256 "d90f11e7e38f42809b656a5eedbfc667339611d0fc726ed29961101a9266a5ba"
+  version "0.5.2"
 
   license "NOASSERTION"
 
