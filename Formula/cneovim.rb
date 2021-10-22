@@ -1,18 +1,11 @@
+# Documentation: https://docs.brew.sh/Formula-Cookbook
+#                https://rubydoc.brew.sh/Formula
 class Cneovim < Formula
-  # desc "neovim Nightly"
-  # homepage "https://neovim.io/"
+  desc "Vim-fork focused on extensibility and usability"
+  homepage "https://neovim.io"
   url "https://github.com/bu-daniel/neovim/archive/refs/tags/v0.5.1.tar.gz"
-  # sha256 "aa449795e5cc69bdd2eeed7095f20b9c086c6ecfcde0ab62ab97a9d04243ec84"
-  license "Apache-2.0"
-  head "https://github.com/bu-daniel/neovim.git", branch: "main"
-
-  bottle do
-    # sha256 arm64_big_sur: "bf8f8dc4407dadb55f81ca0d920d9473c12fc5ec88107e5845e61a61f9f02cdc"
-    # sha256 big_sur:       "0cdce2ddbece563e47ad2734cf181fbea53a8a4c85fc9943f31ea537b5a0e313"
-    # sha256 catalina:      "13516e756e516d44279ecfba5aa50395d12c176be2fa4da5c7c39580bde87e9d"
-    # sha256 mojave:        "8f905a82a928ae7ae41b4d46c409bbf6b6a9c11a2d5edea2ee723315d4b31361"
-    # sha256 x86_64_linux:  "77090b199f345cf0ab8e1f81814b659136de6a85451278ceb22a0712fbfa90c4"
-  end
+  sha256 "03a378a4f4ae090f38c2503a667793d361c0d2aaca378ab035e4a4627ff0efd5"
+  license "NOASSERTION"
 
   depends_on "cmake" => :build
   depends_on "luarocks" => :build
