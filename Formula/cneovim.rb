@@ -1,7 +1,7 @@
 class Cneovim < Formula
   # desc "neovim Nightly"
   # homepage "https://neovim.io/"
-  url "https://github.com/bu-daniel/neovim/archive/neovim-0.5.1-stable.tar.gz"
+  url "https://github.com/bu-daniel/neovim/archive/refs/tags/v0.5.1.tar.gz"
   # sha256 "aa449795e5cc69bdd2eeed7095f20b9c086c6ecfcde0ab62ab97a9d04243ec84"
   license "Apache-2.0"
   head "https://github.com/bu-daniel/neovim.git", branch: "main"
