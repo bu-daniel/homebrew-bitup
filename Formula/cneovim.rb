@@ -1,4 +1,4 @@
-class Neovim < Formula
+class Cneovim < Formula
   # desc "neovim Nightly"
   # homepage "https://neovim.io/"
   url "https://github.com/bu-daniel/neovim/archive/neovim-0.5.1-stable.tar.gz"
