@@ -1,10 +1,11 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 class Cneovim < Formula
-  desc "Vim-fork focused on extensibility and usability"
-  homepage "https://neovim.io"
-  url "https://github.com/bu-daniel/neovim/archive/refs/tags/v0.5.1.tar.gz"
-  sha256 "03a378a4f4ae090f38c2503a667793d361c0d2aaca378ab035e4a4627ff0efd5"
+  desc "neovim Nightly Build"
+  homepage "https://neovim.io/"
+  url "https://github.com/bu-daniel/cneovim/archive/refs/tags/v0.5.1.tar.gz"
+  sha256 "d90f11e7e38f42809b656a5eedbfc667339611d0fc726ed29961101a9266a5ba"
+
   license "NOASSERTION"
 
   depends_on "cmake" => :build
