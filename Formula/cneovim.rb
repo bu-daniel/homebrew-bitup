@@ -4,7 +4,7 @@ class Neovim < Formula
   url "https://github.com/bu-daniel/neovim/archive/neovim-0.5.1-stable.tar.gz"
   # sha256 "aa449795e5cc69bdd2eeed7095f20b9c086c6ecfcde0ab62ab97a9d04243ec84"
   license "Apache-2.0"
-  head "https://github.com/neovim/neovim.git", branch: "master"
+  head "https://github.com/bu-daniel/neovim.git", branch: "main"
 
   bottle do
     # sha256 arm64_big_sur: "bf8f8dc4407dadb55f81ca0d920d9473c12fc5ec88107e5845e61a61f9f02cdc"
