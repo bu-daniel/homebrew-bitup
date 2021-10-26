@@ -3,9 +3,9 @@
 class Cneovim < Formula
   desc "neovim Nightly Build"
   homepage "https://neovim.io/"
-  url "https://github.com/bu-daniel/cneovim/archive/refs/tags/nightly.tar.gz"
+  url "https://github.com/bu-daniel/cneovim/archive/refs/tags/v0.5.1.3.tar.gz"
   sha256 "aa7b81748cc9686146b521ebd716c94da9e141963d483722e9ef427c361b2346"
-  version "0.5.2"
+  version "0.5.2.2"
 
   license "NOASSERTION"
 
